@@ -1,0 +1,49 @@
+doctype html
+html(lang="en")
+  head
+    //Meta tage
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    //Title of the page
+    title Title
+
+    //FavIcon
+    link(rel='shortcut icon' href='favicon.ico')
+
+    //Link Stylesheet
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='assets/css/style.css')
+
+    //[if lt IE 9]
+        script(src="/vendor/assets/js/html5shiv.js")
+        script(src="/vendor/assets/js/respond.min.js")
+    //[endif]
+
+  body
+    div.container
+        div.wrapper
+            div.jumbotron
+                h1
+                    a.logo(href='#') SuperMegaAwesome
+                nav
+                    ul
+                        li
+                            a.home home
+                        li
+                            a.portfolio portfolio
+                        li
+                            a.services services
+                        li
+                            a.get-in-touch get in touch
+                h2.title We create beautiful products.
+                span.sub-title Truffaut DIY keffiyeh, twee messenger bag venmo locavore organic master cleanse marfa gochujang selvage.
+                div.button-container
+                    button.learn-more learn more
+                    button.play-video 
+                        i.fa.fa-play play video
+    
+    script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+    script(src='assets/script/script.js')
