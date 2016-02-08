@@ -16,6 +16,40 @@
 
 //Custom Styling
 
+body {
+	font-family: 'Fira Mono';
+
+	.container {
+		.wrapper {
+			max-width: 1600px;
+		    width: 100%;
+		    margin: 0 auto;
+
+		    .jumbotron {
+		        background: url('../../assets/images/jumbotron-bg.png') no-repeat;
+			    background-attachment: fixed;
+			    background-size: cover;
+		   		padding: 0 70px;
+
+			    h1 {
+			    	width: 209px;
+			    	height: 26px;
+			    	display: inline-block;
+
+			    	a.logo {
+			    		color:  #fff;
+						font-size: 25.49px;
+						font-weight: 700;
+						line-height: 32.69px;
+						text-align: left;
+						text-decoration: none;
+			    	}
+			    }
+		    }
+		}
+	}
+}
+
 
 
 
