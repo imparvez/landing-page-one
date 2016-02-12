@@ -26,23 +26,42 @@ html(lang="en")
     div.container
         div.wrapper
             div.jumbotron
-                h1
-                    a.logo(href='#') SuperMegaAwesome
-                nav
-                    ul
-                        li
-                            a.home home
-                        li
-                            a.portfolio portfolio
-                        li
-                            a.services services
-                button.get-in-touch get in touch
-                h2.title We create beautiful products.
-                span.sub-title Truffaut DIY keffiyeh, twee messenger bag venmo locavore organic master cleanse marfa gochujang selvage.
-                div.button-container
+                div.upper-content
+                    h1
+                        a.logo(href='#') SuperMegaAwesome
+                    div.upper-right-content
+                        nav
+                            ul
+                                li
+                                    a.home home
+                                li
+                                    a.portfolio portfolio
+                                li
+                                    a.services services
+                        button.get-in-touch get in touch
+                div.lower-content
+                    h2.title We create beautiful products.
+                    span.sub-title Truffaut DIY keffiyeh, twee messenger bag venmo locavore organic master cleanse marfa gochujang selvage.
+                    div.button-container
+                        button.learn-more learn more
+                        button.play-video 
+                            i.fa.fa-play play video
+                    img(src='assets/images/down-arrow.png',alt='down-arrow',class='down-arrow')
+
+            div.services-container
+                div.individual-services
+                    h3 Branding
+                    p Truffaut DIY keffiyeh, twee messenger bag venmo locavore organic selvage.
                     button.learn-more learn more
-                    button.play-video 
-                        i.fa.fa-play play video
+                div.individual-services
+                    h3 UI/UX Design
+                    p Truffaut DIY keffiyeh, twee messenger bag venmo locavore organic selvage.
+                    button.learn-more learn more
+                div.individual-services
+                    h3 Development
+                    p Truffaut DIY keffiyeh, twee messenger bag venmo locavore organic selvage.
+                    button.learn-more learn more
+
     
     script(src='https://code.jquery.com/jquery-2.1.4.min.js')
     script(src='assets/script/script.js')
